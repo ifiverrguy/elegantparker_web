@@ -101,7 +101,7 @@ class HowTo extends React.Component {
             </Box>
           </Container>
         </TabPane>
-        <TabPane tab="For companies in the industry" key="industry">
+        <TabPane tab="For industry cooperation" key="industry">
           <Container>
             <Box
               display="flex"
