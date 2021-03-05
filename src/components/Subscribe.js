@@ -273,9 +273,14 @@ class Subscribe extends React.Component {
                   onChange={this.handleChangeFromDropdown}
                   fullWidth
                 >
+                  <MenuItem value={"au"}>Australia</MenuItem>
+                  <MenuItem value={"cn"}>China (Mainland)</MenuItem>
                   <MenuItem value={"hk"}>Hong Kong</MenuItem>
                   <MenuItem value={"jp"}>Japan</MenuItem>
                   <MenuItem value={"tw"}>Taiwan</MenuItem>
+                  <MenuItem value={"uk"}>United Kingdom</MenuItem>
+                  <MenuItem value={"us"}>United States</MenuItem>
+                  <MenuItem value={"others"}>Others</MenuItem>
                 </Select>
               </FormControl>
               <FormControl className={classes.formControl}>
